@@ -1,5 +1,5 @@
 {
-  "homepage":"https://roglol.github.io/multipage-form",
+  "homepage": "https://roglol.github.io/multipage-form",
   "name": "wizzard",
   "version": "0.1.0",
   "private": true,
@@ -26,8 +26,8 @@
     "yup": "^0.32.9"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,11 +40,10 @@
     ]
   },
   "browserslist": [
-      ">0.2%",
-      "not op_mini all"
-    ],
-  
-  "devDependencies":{
+    ">0.2%",
+    "not op_mini all"
+  ],
+  "devDependencies": {
     "gh-pages": "^3.2.3"
   }
 }
